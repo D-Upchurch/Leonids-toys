@@ -48,18 +48,21 @@
 const toys = [
     {
         id: 1,
+        name: "ball",
         cost: 5,
         weight: 1.5,
         shape: "round"
     },
     {
         id: 2,
+        name: "train",
         cost: 10,
         weight: 3.2,
         shape: "rectangle"
     },
     {
         id: 3,
+        name: "puzzle",
         cost: 7,
         weight: 2.5,
         shape: "square"
@@ -67,5 +70,5 @@ const toys = [
 ];
 
 for (const toy of toys) {
-    console.log(toy.cost)
+    console.log(`Cost of the ${toy.name} is $${toy.cost}`)
 };
